@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 //import toast from "react-hot-toast";
 const EmailVerificationPage = () => {
-  const [code, setCode] = useState(["", "", "", "", "", "", ""]);
+  const [code, setCode] = useState(["", "", "", "", "", ""]);
   const inputRefs = useRef([]);
   const navigate = useNavigate();
   const isLoading = false;
